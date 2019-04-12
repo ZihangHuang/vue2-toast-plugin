@@ -1,0 +1,25 @@
+{
+  "name": "vue2-toast-plugin",
+  "version": "1.0.3",
+  "description": "A simple toast plugin for vue2",
+  "main": "dist/vue-toaster.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/ZihangHuang/vue2-toast-plugin/issues",
+    "email": "2677965157@qq.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ZihangHuang/vue2-toast-plugin.git"
+  },
+  "keywords": [
+    "vue",
+    "vue-plugin",
+    "toast"
+  ],
+  "author": "ZihangHuang",
+  "license": "MIT",
+  "dependencies": {}
+}
