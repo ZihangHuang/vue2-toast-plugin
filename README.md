@@ -37,11 +37,11 @@ In the component:
 export default {
     methods:{
         openCenter(){
-            this.$toast('hello'); //default potision center
+            this.$toast('hello');
         },
         openTop(){
             this.$toast('hello', {
-              position: 'top', //or bottom
+              position: 'top',
               duration: 2000
             });
         },
