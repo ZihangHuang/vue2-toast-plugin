@@ -51,6 +51,9 @@
           Object.keys(config).forEach(v => {
             options[v] = config[v];
           });
+          options.icon = config.icon && ["success", "error"].indexOf(config.icon) !== -1
+          ? config.icon
+          : "";
         } else {
           console.error("Expected second argument to be a object!");
         }
@@ -126,10 +129,7 @@
       toastVM.wordWrap = options.wordWrap;
       toastVM.position = options.position;
       toastVM.styles.width = options.width;
-      toastVM.icon =
-        config.icon && ["success", "error"].indexOf(config.icon) !== -1
-          ? config.icon
-          : "";
+      toastVM.icon = options.icon
       toastVM.show = true;
 
       toastTimer = setTimeout(() => {
