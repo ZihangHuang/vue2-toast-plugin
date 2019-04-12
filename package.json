@@ -1,6 +1,6 @@
 {
   "name": "vue2-toast-plugin",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple toast plugin for vue2",
   "main": "dist/vue-toaster.js",
   "scripts": {
