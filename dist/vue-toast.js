@@ -65,7 +65,7 @@
       }
 
       if (!toastVM) {
-        const toastCon = Vue.extend({
+        var toastCon = Vue.extend({
           data: function() {
             return {
               show: false,

@@ -1,6 +1,11 @@
 # vue2-toast-plugin
 A simple toast plugin for vue2.
 
+<p>
+    <a href="https://www.npmjs.com/package/vue2-toast-plugin"><img src="https://img.shields.io/npm/dm/vue2-toast-plugin.svg" alt=""></a>
+    <a href="https://www.npmjs.com/package/vue2-toast-plugin"><img src="https://img.shields.io/npm/v/vue2-toast-plugin.svg" alt=""></a>
+</p>
+
 ## Usage
 #### Use vue-cli
 Install:
@@ -16,7 +21,7 @@ import "vue2-toast-plugin/dist/style.css";
 Vue.use(Toast);
 ```
 #### Direct &lt;script&gt; include
-It dispose the global variable:
+It expose the global variable:
 ```javascript
 Vue.use(VueToast)
 ```
