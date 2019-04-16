@@ -46,15 +46,29 @@ export default {
         },
         openTop(){
             this.$toast('hello', {
-              position: 'top',
-              duration: 2000
+                position: 'top',
+                duration: 2000
             });
         },
         openWithIcon(){
             this.$toast('hello', {
-              position: 'top',
-              duration: 2000,
-              icon: 'success' //or error
+                position: 'top',
+                duration: 2000,
+                icon: 'success' //or error
+            });
+        },
+        openWithCallback(){
+            this.$toast("hello", function(){
+                console.log("done");
+            });
+        },
+        openWithCallback2(){
+            this.$toast("hello", {
+                position: 'top',
+                duration: 2000,
+                icon: 'success'
+            }, function(){
+                console.log("done");
             });
         },
         loading(){
